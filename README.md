@@ -21,7 +21,7 @@ Currently company's employee promotion rate is 9%. Our goal is to `increase empl
 
 ## Dataset Overview
 
-Our data consist of 54808 rows (employees data), which are generated from 1 year historical employees data. There are 12 independent features and 1 target feature. Our target feature explain whether employee will get promotion or not. 
+Our data consist of 54808 rows (employees data), which are generated from 1 year historical employees data. There are 12 independent features and 1 target feature. Our target feature explain whether employee will get promotion or not. Data source : [link](https://www.kaggle.com/datasets/arashnic/hr-ana)
 
 ## Data Pre Processing
 
