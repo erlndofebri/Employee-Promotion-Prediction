@@ -8,7 +8,7 @@ The result of this project is that we managed to increase employees promotion ra
 
 This is also meet the `pareto principle`: We use about `20% effort to get 80% result`, because through this recommendation we only need to improve increment `avg_training_score` 13.5% and improve increment `previous_year_rating` 10% give the result 80.89% total hiring cost reduction
 
-# Project Background
+## Project Background
 
 A high number of promotions are an indication that our company was experiencing a lot of change. **Acquiring new business or merging with another organization all require major shifts in labor allocation**. People will take on new tasks and be promoted into various roles based on new needs.
 
@@ -19,18 +19,18 @@ high promotion rate means the company uses internal hiring so that employees can
 
 Currently company's employee promotion rate is 9%. Our goal is to `increase employee promotion rate by 25%` and `decrease total hiring cost up to 50%`. This can be achieved by knowing the factors that can affect the increment of the employee promotion rates and implementing our recommendations in business processes.
 
-# Dataset Overview
+## Dataset Overview
 
 Our data consist of 54808 rows (employees data), which are generated from 1 year historical employees data. There are 12 independent features and 1 target feature. Our target feature explain whether employee will get promotion or not. 
 
-# Data Pre Processing
+## Data Pre Processing
 
 1. Handling Missing Values
 2. Feature Encoding
 3. Feature Selection
 4. Handling Imbalaced Target 
 
-# Modeling 
+## Modeling 
 
 We use several algorithm, and those top 3 are:
 1. Random Forest
@@ -46,7 +46,7 @@ Random Forest:
 1. Train Precision Score : 0.99
 2. Test Precision Score : 099
 
-# Recommendation :
+## Recommendation :
 
 1. Improve increment `avg_training_score` 13.5%
 2. Improve increment `previous_year_rating` 10%
