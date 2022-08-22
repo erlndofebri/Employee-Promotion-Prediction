@@ -54,24 +54,24 @@ Random Forest:
 
 #### Recommendation result:
 ===================================================================
-
+#### Training Score Impact After Business Recommendation Implementation
 - Current Average avg_training_score = 60.0
 - Average avg_training_score after implementing recommendation = 82
 
 ===================================================================
-
+#### Promotion Impact After Business Recommendation Implementation
 - Current Promotion Rate = 8.52%
 - Simulation Promotion Rate After Recommendation = 24.63%
 - Promotion Rate Increment =  16.11
 
 ===================================================================
-
+#### Hiring Cost Impact After Business Recommendation Implementation
 - Current Hiring Cost  = $ 44373900
 - Hiring Cost After Implementing Recommendation = $ 36558016
 - Percetage Hiring Cost Reduction = 21.38%
 
 ===================================================================
-
+#### Talent recruited Impact After Business Recommendation Implementation
 - Current Number of Talent Will Be Recruited = 10028
 - New Number of Talent Will Be Recruited = 8262
 
