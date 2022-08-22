@@ -4,9 +4,9 @@ A large MNC have 9 broad verticals across the organisation. One of the problem i
 
 The final promotions are only announced after the evaluation and this leads to delay in transition to new roles. Hence, company needs help in identifying the eligible candidates at a particular checkpoint so that they can expedite the entire promotion cycle.
 
-The result of this project is that we managed to increase employees promotion rate by **49.43%** and also decrease  total hiring cost up to **80.89%**. We have also analyzed the most important factors affecting promotion rate with their respective correlations. We also provide rational and achieveable recommendations that can be applied by the relevant team so we can increase employees promotion rate and decrease total hiring cost.
-
-This is also meet the `pareto principle`: We use about `20% effort to get 80% result`, because through this recommendation we only need to improve increment `avg_training_score` 13.5% and improve increment `previous_year_rating` 10% give the result 80.89% total hiring cost reduction
+Result of this model:
+- Precision Train Score : 0.919831223628692
+- Precision Test Score : 0.9603960396039604
 
 ## Project Background
 
@@ -43,14 +43,37 @@ we use Precision Score to prevent high number of False Positive (Predicted predi
 **Result:**
 
 Random Forest:
-1. Train Precision Score : 0.99
-2. Test Precision Score : 099
+- Precision Train Score : 0.919831223628692
+- Precision Test Score : 0.9603960396039604
 
 ## Recommendation :
 
-1. Improve increment `avg_training_score` 13.5%
+
+1. Improve increment `avg_training_score` 30%
 2. Improve increment `previous_year_rating` 10%
-3. With these two recommendation above, company can **increase 49.43% promotion rate** and **reduce up to 80.89% total hiring cost**
 
+#### Recommendation result:
+===================================================================
 
+- Current Average avg_training_score = 60.0
+- Average avg_training_score after implementing recommendation = 82
+
+===================================================================
+
+- Current Promotion Rate = 8.52%
+- Simulation Promotion Rate After Recommendation = 24.63%
+- Promotion Rate Increment =  16.11
+
+===================================================================
+
+- Current Hiring Cost  = $ 44373900
+- Hiring Cost After Implementing Recommendation = $ 36558016
+- Percetage Hiring Cost Reduction = 21.38%
+
+===================================================================
+
+- Current Number of Talent Will Be Recruited = 10028
+- New Number of Talent Will Be Recruited = 8262
+
+===================================================================
 
